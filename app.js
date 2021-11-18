@@ -8,13 +8,14 @@ app.use(express.static(__dirname + "/src"));
 app.get("/", function(request, response){
     response.send("src/main/index.html");
 });
-s
-app.get("/login", function(request, response){
-    response.send("src/login/index.html");
+
+app.get('/login', function(req, res) {
+    res.sendFile(path.join(__dirname, 'login/index.html'));
 });
 
-app.get("/dishes", function(request, response){
-    response.send("src/dishes/index.html");
+
+app.get('/dishes', function(req, res){
+    res.sendFile(path.join(__dirname, 'dishes/index.html'));
 });
 
 app.listen(process.env.PORT || 3000);
