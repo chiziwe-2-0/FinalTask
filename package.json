@@ -6,11 +6,6 @@
   "author": "Nikita Olimpiev <nikitaolimpiev97@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "editorconfig-checker",
-    "html": "html-minifier --remove-comments --collapse-whitespace --input-dir src --output-dir dist --file-ext html",
-    "styles": "postcss src/styles/index.css --use postcss-import --use postcss-csso --no-map --output dist/styles/index.css",
-    "build": "npm run html && npm run styles",
-    "serve": "serve"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
