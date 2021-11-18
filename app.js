@@ -9,6 +9,10 @@ app.get('/main', function(req, res) {
     res.sendFile(path.join(__dirname, 'main/index.html'));
 });
 
+app.use("/",function (request, response) {
+    response.redirect("/main")
+  });
+
 app.get('/login', function(req, res) {
     res.sendFile(path.join(__dirname, 'login/index.html'));
 });
