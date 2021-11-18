@@ -1,0 +1,31 @@
+.chicken-back {
+  background: radial-gradient(50% 50% at 50% 50%, #FFCA43 0%, #FF6D02 100%);
+  width: 50%;
+  height: 100%;
+  position: relative;
+  float: right;
+  display: grid;
+}
+
+body {
+  height: 100%;
+}
+
+#chicken-img {
+  margin: auto;
+  max-width: 550px;
+}
+
+html {
+  height: 100%;
+}
+
+#login-left {
+  display: grid;
+  float: left;
+  background: #ff0211;
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+

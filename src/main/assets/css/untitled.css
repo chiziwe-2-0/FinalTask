@@ -1,0 +1,15 @@
+.btn-dashboard {
+  font-family: Inter, sans-serif;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.sticky-footer {
+}
+
+.hello {
+  background: radial-gradient(36.28% 150.93% at 50% 50%, #FFD047 0%, #FF6C01 100%);
+  border-radius: 20px 20px 20px 20px;
+  height: 100px;
+}
+
