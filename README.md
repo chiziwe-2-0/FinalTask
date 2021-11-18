@@ -6,7 +6,7 @@
 
 
 
-**Главная страница:** https://finaltask-app.herokuapp.com/main/
+**Главная страница:** https://finaltask-app.herokuapp.com/
 
 **Раздел "Блюда":** https://finaltask-app.herokuapp.com/dishes/
 
