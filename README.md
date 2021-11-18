@@ -4,8 +4,10 @@
 
 Автор: Олимпиев Никита, P42072
 
-Главная страница: https://finaltask-app.herokuapp.com/main/
 
-Раздел "Блюда": https://finaltask-app.herokuapp.com/dishes/
 
-Логин: https://finaltask-app.herokuapp.com/login/
+**Главная страница:** https://finaltask-app.herokuapp.com/main/
+
+**Раздел "Блюда":** https://finaltask-app.herokuapp.com/dishes/
+
+**Логин:** https://finaltask-app.herokuapp.com/login/
