@@ -12,3 +12,4 @@
 
 **Логин:** https://finaltask-app.herokuapp.com/login/
 
+**Отчет:** https://docs.google.com/document/d/1-D7y6ZZMjdEw6KRkz5faLvXE1UTTyivOuMxp2JEPdK0/edit?usp=sharing
