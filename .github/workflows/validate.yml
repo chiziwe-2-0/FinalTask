@@ -1,0 +1,24 @@
+name: Validate
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node JS
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: HTML5Validator
+        uses: Cyb3r-Jak3/html5validator-action@master
+        with:
+          root: src/
+
+        continue-on-error: true
