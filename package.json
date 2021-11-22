@@ -6,6 +6,7 @@
   "author": "Nikita Olimpiev <nikitaolimpiev97@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "node app.js"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
